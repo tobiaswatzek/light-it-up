@@ -11,7 +11,6 @@ import { styleMap } from "lit-html/directives/style-map";
 
 @customElement("light-it-up")
 export class LightItUp extends LitElement {
-  @property({ type: String }) public label = "";
   @property({ type: String }) public boxColor = "#000";
   @property({ type: String }) public lightColor = "#3F88C5";
 
