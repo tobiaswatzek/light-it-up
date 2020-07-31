@@ -1,0 +1,23 @@
+{
+  "name": "light-it-up",
+  "version": "0.0.0",
+  "description": "A simple web component",
+  "main": "light-it-up.js",
+  "module": "light-it-up.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "clean": "rimraf light-it-up.{d.ts,d.ts.map,js,js.map}",
+    "serve": "es-dev-server --node-resolve --watch"
+  },
+  "dependencies": {
+    "lit-element": "^2.3.1"
+  },
+  "devDependencies": {
+    "es-dev-server": "^1.46.1",
+    "prettier": "^2.0.5",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.8.3"
+  }
+}

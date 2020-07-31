@@ -1,0 +1,8 @@
+/node_modules/
+/lib/
+
+# top level source
+light-it-up.js
+light-it-up.js.map
+light-it-up.d.ts
+light-it-up.d.ts.map
